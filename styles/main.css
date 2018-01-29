@@ -1,5 +1,10 @@
 body {
-  font-size: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2em;
+  font-size: 85%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -10,15 +15,30 @@ p {
 }
 
 /* TODO: size images manually so this is not necessary */
-img {
-  max-height: 20rem;
-}
+
+/*img {
+  max-height: 5rem;
+}*/
+
+/*div img {
+  
+  width: 25%;
+  
+}*/
 
 /***************** NAV *****************/
 
-nav a:hover {
-  text-decoration: underline;
+nav{
+  background-color: #ADD8E6;
+  margin: auto;
+  text-align: center;
+  padding: 1% 0;
+  text-decoration: none;
+  width: 100%;
+  font-size: 2em;
+      
 }
+
 
 /**************** HERO *****************/
 
@@ -50,12 +70,57 @@ section {
 h2 {
   padding-top: 1.5rem;
   font-size: 2rem;
-  text-align: center;
+  /*text-align: center;*/
   color: #2d2d2d;
 }
 
 h3 {
   font-size: 1.2rem;
-  text-align: center;
+  /*text-align: center;*/
   color: #2d2d2d;
+}
+
+
+
+.product {
+
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 20%;
+  height: 8%;
+  margin-bottom: 1em;
+  border: outset #ADD8E6;
+  
+
+
+}
+
+h3.product {
+  text-align: justify;
+  margin: 2%;
+}
+
+.price {
+  text-align: center;
+  color: #e82918;
+  margin: 1%;
+  border: 0;
+}
+
+.m-stars {
+  text-align: center;
+  margin: 1%;
+}
+
+button {
+  background-color: cornflowerblue;
+  border-radius: 50%;
+  color: white;
+}
+
+.p-img {
+  width: 5%;
+  
 }

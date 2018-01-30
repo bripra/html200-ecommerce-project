@@ -6,6 +6,15 @@ body {
   padding: 2em;
   font-size: 85%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+.flex-container {
+  align-items: flex-start;
+  flex-flow: row wrap;
+  display: -webkit-flex; /* Safari */
+  display: flex;
 }
 
 p {
@@ -44,10 +53,25 @@ nav{
 
 header img {
   max-height: 6rem;
+  white-space: nowrap;
 }
 
 h1 .logo-w {
   font-size: 3.5rem;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.logo-title{
+  color: skyblue;
+  font-weight: 600;
+  font-size: 3.5rem
+  
+  
+}
+
+.logo-f::first-letter {
+  color: aliceblue;
 }
 
 /**************** ASIDE ****************/
@@ -64,6 +88,7 @@ input[type="submit"] {
 /*********** PRODUCTS SECTION ***********/
 
 section {
+  
   padding: 0 .75rem;
 }
 
@@ -85,11 +110,13 @@ h3 {
 .product {
 
   background-color: #ffffff;
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-basis: 20%;
-  height: 8%;
+  /*flex-basis: 20%;*/
+  height: 35%;
+  width: 27%;
   margin-bottom: 1em;
   border: outset #ADD8E6;
   
@@ -121,6 +148,6 @@ button {
 }
 
 .p-img {
-  width: 5%;
+  width: 25%;
   
 }

@@ -119,8 +119,9 @@ h3 {
   margin: 1%;
   border: outset #ADD8E6;
   padding: 1%;
-  flex-shrink: inherit;
-  flex-grow: inherit;
+ /* flex-shrink: inherit;
+  flex-grow: inherit; */
+  
   
 
 

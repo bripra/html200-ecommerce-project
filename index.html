@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Winter Scarves</title>
 
@@ -7,42 +8,37 @@
 
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/main.css">
+  <script src="js/script.js"></script>
   <!--TODO Input Font Awesome link for now until decide to use user rating stars or not-->
   <script src="https://use.fontawesome.com/0f55729c7c.js"></script>
 
-   
+
 </head>
 
 <body>
   <header>
-  
-   <nav>
-      
-        <a href="#">Hats</a>
-        <a href="#">Gloves</a>
-        <a href="#">Scarves</a>
-        
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-        
-      
-    </nav>
-  
-   <img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
-   <h1 class="logo-title">
-      Winter
-      Wear
-      Warehouse
-    </h1>
-   
 
-    
-    
+    <nav>
+
+      <a href="#">Hats</a>
+      <a href="#">Gloves</a>
+      <a href="#">Scarves</a>
+
+      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+    </nav>
+
+    <img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
+    <h1 class="logo-title">
+      Winter Wear Warehouse
+    </h1>
+
   </header>
 
   <main>
-   <!--TODO Align aside to left 1/3rd of page-->
+    <!--TODO Align aside to left 1/3rd of page-->
     <aside>
-      <form>
+      <form name="email" onsubmit="capture()">
         <label>Sign up for our mailing list:
           <input type="email" name="email">
         </label>
@@ -51,14 +47,14 @@
       </form>
     </aside>
 
-   
+
     <section>
       <h2>Scarves</h2>
 
-     
+
       <!--<div class="item-container">-->
       <!-- TODO make product module title top, picture below title, product description and price below picture. Question add font awesome rating stars and compare button?-->
-       <div id="flex-container">
+      <div id="flex-container">
         <div class="product">
           <h3>Reversible Plaid</h3>
           <img class="p-img" src="images/reversible-plaid.jpg" alt="reversible plaid scarf"><br>
@@ -120,4 +116,5 @@
   </main>
   <script src="js/script.js"></script>
 </body>
+
 </html>

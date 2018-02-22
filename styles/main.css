@@ -1,17 +1,16 @@
 body {
-  
   padding: 2em;
   font-size: 85%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-  
 }
 
 #flex-container {
+  display: flex;
   width: 70%;
   align-items: flex-start;
   flex-flow: row wrap;
-  display: -webkit-flex; /* Safari */
-  display: flex;
+  display: -webkit-flex;
+  /* Safari */
 }
 
 p {
@@ -20,21 +19,9 @@ p {
   color: #2d2d2d;
 }
 
-/* TODO: size images manually so this is not necessary */
-
-/*img {
-  max-height: 5rem;
-}*/
-
-/*div img {
-  
-  width: 25%;
-  
-}*/
-
 /***************** NAV *****************/
 
-nav{
+nav {
   background-color: #ADD8E6;
   margin: auto;
   text-align: center;
@@ -42,9 +29,7 @@ nav{
   text-decoration: none;
   width: 100%;
   font-size: 2em;
-      
 }
-
 
 /**************** HERO *****************/
 
@@ -53,18 +38,17 @@ header img {
   white-space: nowrap;
 }
 
+
 h1 .logo-w {
   font-size: 3.5rem;
   color: aliceblue;
   font-weight: 600;
 }
 
-.logo-title{
+.logo-title {
   color: skyblue;
   font-weight: 600;
-  font-size: 3.5rem
-  
-  
+  font-size: 250%;
 }
 
 .logo-f::first-letter {
@@ -83,23 +67,20 @@ input[type="submit"] {
 }
 
 aside {
-  
   width: 20%;
-  
 }
 
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  
   padding: 0 .75rem;
-  
 }
 
 h2 {
   padding-top: 1.5rem;
   font-size: 2rem;
-  /*text-align: center;*/
+  /*text-align: center;
+    */
   color: #2d2d2d;
 }
 
@@ -109,22 +90,16 @@ h3 {
   color: #2d2d2d;
 }
 
-
-
 .product {
-
   background-color: #ffffff;
   height: 35%;
   width: 27%;
   margin: 1%;
   border: outset #ADD8E6;
   padding: 1%;
- /* flex-shrink: inherit;
-  flex-grow: inherit; */
-  
-  
-
-
+  /* flex-shrink: inherit;
+     flex-grow: inherit;
+     */
 }
 
 h3.product {
@@ -152,11 +127,8 @@ button {
 
 .p-img {
   width: 25%;
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 1%;
-  
-  
-  
 }

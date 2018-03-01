@@ -7,36 +7,30 @@
   <meta charset="utf-8">
 
   <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/media.css">
   <link rel="stylesheet" href="styles/main.css">
-  <script src="js/script.js"></script>
-  <!--TODO Input Font Awesome link for now until decide to use user rating stars or not-->
   <script src="https://use.fontawesome.com/0f55729c7c.js"></script>
-
-
 </head>
-
 <body>
+ <div class="grid">
   <header>
 
     <nav>
-
       <a href="#">Hats</a>
       <a href="#">Gloves</a>
       <a href="#">Scarves</a>
-
+    
       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-
     </nav>
-
-    <img src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
+   
+    <img class="logo-img" src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
     <h1 class="logo-title">
       Winter Wear Warehouse
     </h1>
-
-  </header>
-
-  <main>
-    <!--TODO Align aside to left 1/3rd of page-->
+ </header>
+  
+<!--  <main>-->
+    
     <aside>
       <form name="email" onsubmit="capture()">
         <label>Sign up for our mailing list:
@@ -47,14 +41,12 @@
       </form>
     </aside>
 
-
-    <section>
+    <div class="title">
       <h2>Scarves</h2>
-
-
-      <!--<div class="item-container">-->
-      <!-- TODO make product module title top, picture below title, product description and price below picture. Question add font awesome rating stars and compare button?-->
-      <div id="flex-container">
+    </div>
+    
+    <section>
+      
         <div class="product">
           <h3>Reversible Plaid</h3>
           <img class="p-img" src="images/reversible-plaid.jpg" alt="reversible plaid scarf"><br>
@@ -111,9 +103,10 @@
           <p class="price">26.99</p>
         </div>
 
-      </div>
+<!--      </div>-->
     </section>
-  </main>
+<!--  </main>-->
+ </div>
   <script src="js/script.js"></script>
 </body>
 

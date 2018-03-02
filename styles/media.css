@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px){
+@media screen and (min-width: 700px){
   
 .grid {
   display: grid;
@@ -19,10 +19,8 @@ header {
   align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  ". nav logo-title . logo-img ."
-/*  ". logo-title logo-title ."*/
-/*  ". logo-img ." */
-  ;
+  ". nav logo-img logo-title .";
+  
 }
 logo-img{
     grid-area: logo-img;

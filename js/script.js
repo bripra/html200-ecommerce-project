@@ -59,8 +59,23 @@ function capture(){
   event.preventDefault(); 
   var email= document.email.email.value
   console.log(email+" thank you for signing up.") 
+//  document.email.email.value""  
+  
+}
+
+var cart=[""]
+function shopCart(pCart){
+  event.preventDefault();
+  
+  var i= cart.indexOf(pCart)
+  if (i == -1) {
+    cart.push(pCart) ;
+	console.log("You have added " + pCart + " to your cart");
+    } else {
+      cart.splice(i,1) ;
+	console.log(pCart + " has been removed from your cart");
+    }
   
   
   
 }
-

@@ -1,45 +1,45 @@
 @media screen and (min-width: 700px){
   
-.grid {
-  display: grid;
-  align-items: start;
-  justify-content: start;
-  grid-gap: 15px 15px;
-  grid-template-columns: 1fr 20% 60% 1fr;
-  grid-template-areas: 
-  ". header header ."
-  ". title title ."
-  ". aside section .";  
-}
-
-header {
-  grid-area: header;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-  ". nav logo-img logo-title .";
-  
-}
-logo-img{
-    grid-area: logo-img;
-}
-  logo-title{
-    grid-area: logo-title;
-}
-
-aside {
-  grid-area: aside;
-}
-.title{
-    grid-area: title;
+  .grid {
+    display: grid;
+    align-items: start;
+    justify-content: start;
+    grid-gap: 15px 15px;
+    grid-template-columns: 1fr 20% 60% 1fr;
+    grid-template-areas: 
+    ". header header ."
+    ". title title ."
+    ". aside section .";  
   }
-section {
-  grid-area: section;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
-  "product product product";
-}
+
+  header {
+    grid-area: header;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    ". nav logo-img logo-title .";
+
+  }
+  logo-img{
+      grid-area: logo-img;
+  }
+    logo-title{
+      grid-area: logo-title;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+  .title{
+      grid-area: title;
+    }
+  section {
+    grid-area: section;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "product product product";
+  }
 }
